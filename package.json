@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "npm install -g postcss postcss-cli autoprefixer && hugo --gc --minify -t ../.. -d ../docs -v -b https://curtis.dev/",
+    "dev": "cd exampleSite && ENVIRONMENT=development hugo -t ../.. server"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "postcss-cli": "^9.1.0"
+  }
+}
