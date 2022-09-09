@@ -66,10 +66,10 @@ DefaultContentLanguage           = "en"                    # Default language fo
         url   = "https://www.linkedin.com/in/curtis-allen-68425566"
         icon  = "linkedin-in" # icon name without the 'fa-'
         icon_pack = "fab"
-    [[params.social]]
-        url = "mailto:curtis.n.allen@gmail.com"  # For a direct email link, use "mailto:test@example.org".
-        icon = "paper-plane" # icon name without the 'fa-'
-        icon_pack = "fas"
+    # [[params.social]]
+    #     url = "mailto:curtis.n.allen@gmail.com"  # For a direct email link, use "mailto:test@example.org".
+    #     icon = "paper-plane" # icon name without the 'fa-'
+    #     icon_pack = "fas"
     # [[params.social]]
     #     url   = "https://mastodon.social/"
     #     icon  = "mastodon" # icon name without the 'fa-'
@@ -119,25 +119,25 @@ DefaultContentLanguage           = "en"                    # Default language fo
         title            = "Introduction"
         [languages.en.params]
             description  = "Curtis Allen the Enginner"   # Max 160 characters show in search results
-            # footerText   = ""                      # Text to override default footer text (markdown allowed)
+            footerText   = ""                      # Text to override default footer text (markdown allowed)
 
-    [languages.es]
-        languageName     = "Español"
-        languageCode     = "es"
-        contentDir       = "content/es"
-        weight           = 1
-        title            = "Introducción"
-        [languages.es.params]
-            description  = "Descripcion del sitio web"
-            # footerText   = ""
+    # [languages.es]
+    #     languageName     = "Español"
+    #     languageCode     = "es"
+    #     contentDir       = "content/es"
+    #     weight           = 1
+    #     title            = "Introducción"
+    #     [languages.es.params]
+    #         description  = "Descripcion del sitio web"
+    #         # footerText   = ""
 
-    [languages.de]
-        languageName     = "Deutsch"
-        languageCode     = "de"
-        contentDir       = "content/de"
-        weight           = 2
-        title            = "Vorstellung"
-        [languages.de.params]
-            dateFormat   = "2. January 2006"
-            description  = "Beschreibung der Webseite"
-            # footerText   = ""
+    # [languages.de]
+    #     languageName     = "Deutsch"
+    #     languageCode     = "de"
+    #     contentDir       = "content/de"
+    #     weight           = 2
+    #     title            = "Vorstellung"
+    #     [languages.de.params]
+    #         dateFormat   = "2. January 2006"
+    #         description  = "Beschreibung der Webseite"
+    #         # footerText   = ""
